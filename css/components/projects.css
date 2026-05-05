@@ -37,8 +37,7 @@
     aspect-ratio: 16 / 10;
     background: #050505;
     border-bottom: 1px solid rgba(245, 245, 245, 0.18);
-    overflow: hidden;
-    position: relative;
+    overflow: visible;
 }
 
 .project-card__media img {
@@ -59,6 +58,8 @@
     flex-direction: column;
     gap: 0.5rem;
     flex: 1;
+    position: relative;
+    padding-right: 3rem;
 }
 
 .project-card__title {
@@ -92,8 +93,8 @@
 
 .project-card__github {
     position: absolute;
-    top: 8px;
-    right: 8px;
+    right: 0.95rem;
+    bottom: 0.95rem;
     width: 28px;
     height: 28px;
     display: inline-flex;
@@ -118,10 +119,6 @@
     width: 14px;
     height: 14px;
     display: block;
-}
-
-.project-card__media {
-    position: relative;
 }
 
 .project-card__desc {
