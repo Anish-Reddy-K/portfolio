@@ -8,6 +8,7 @@ body {
     min-height: 100vh;
     position: relative;
     overflow: hidden;
+    font-family: 'JetBrains Mono', ui-monospace, monospace;
 }
 
 #background-container {

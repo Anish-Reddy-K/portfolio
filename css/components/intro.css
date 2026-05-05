@@ -1,0 +1,42 @@
+.intro {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-family: 'JetBrains Mono', ui-monospace, monospace;
+    color: #ffb84d;
+    z-index: 1;
+}
+
+.intro::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 180%;
+    height: 260%;
+    transform: translate(-50%, -50%);
+    background: radial-gradient(
+        ellipse at center,
+        rgba(0, 0, 0, 0.75) 0%,
+        rgba(0, 0, 0, 0.45) 35%,
+        rgba(0, 0, 0, 0) 70%
+    );
+    pointer-events: none;
+    z-index: -1;
+}
+
+.intro__name {
+    margin-top: 0.6em;
+    font-size: clamp(1.4rem, 3vw, 2.2rem);
+    font-weight: 400;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    text-shadow:
+        0 0 6px rgba(255, 184, 77, 0.55),
+        0 0 16px rgba(255, 140, 40, 0.35);
+}
