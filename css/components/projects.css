@@ -23,6 +23,10 @@
     transition: border-color 120ms ease, background 120ms ease;
 }
 
+.project-card:nth-child(n+7) {
+    display: none;
+}
+
 .project-card:hover,
 .project-card:focus-within {
     border-color: #ffb84d;

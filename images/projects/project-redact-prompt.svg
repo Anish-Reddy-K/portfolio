@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" role="img" aria-labelledby="title desc">
+  <title id="title">redact-prompt thumbnail</title>
+  <desc id="desc">PII redaction pipeline masking sensitive prompt values before LLM calls.</desc>
+  <rect width="640" height="400" fill="#05070b"/>
+  <rect x="78" y="96" width="212" height="206" fill="#0a0d12" stroke="#f5f5f5" stroke-opacity=".38" stroke-width="3"/>
+  <path d="M112 140h136M112 176h96M112 212h142M112 248h118" stroke="#f5f5f5" stroke-opacity=".55" stroke-width="8"/>
+  <rect x="142" y="168" width="84" height="18" fill="#ffb84d"/>
+  <rect x="190" y="240" width="78" height="18" fill="#ffb84d"/>
+  <path d="M302 198h76l-14-14m14 14-14 14" stroke="#ffb84d" stroke-width="5" fill="none"/>
+  <rect x="394" y="96" width="168" height="206" fill="#0a0d12" stroke="#ffb84d" stroke-opacity=".72" stroke-width="3"/>
+  <path d="M428 144h94M428 182h62M428 220h112M428 258h80" stroke="#f5f5f5" stroke-opacity=".55" stroke-width="8"/>
+  <text x="420" y="132" fill="#ffb84d" font-family="monospace" font-size="16">[EMAIL_1]</text>
+  <text x="420" y="330" fill="#ffb84d" font-family="monospace" font-size="20" letter-spacing="3">REDACT / RESTORE</text>
+</svg>

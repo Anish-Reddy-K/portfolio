@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" role="img" aria-labelledby="title desc">
+  <title id="title">Embeddium thumbnail</title>
+  <desc id="desc">Desktop embedding generator with vectors flowing into storage.</desc>
+  <rect width="640" height="400" fill="#05070b"/>
+  <rect x="78" y="72" width="484" height="270" fill="#090c11" stroke="#ffb84d" stroke-opacity=".7" stroke-width="3"/>
+  <rect x="106" y="112" width="154" height="174" fill="#0d1117" stroke="#f5f5f5" stroke-opacity=".35"/>
+  <path d="M128 148h108M128 184h90M128 220h116M128 256h72" stroke="#f5f5f5" stroke-opacity=".52" stroke-width="7"/>
+  <circle cx="352" cy="152" r="16" fill="none" stroke="#ffb84d" stroke-width="4"/>
+  <circle cx="410" cy="202" r="16" fill="none" stroke="#ffb84d" stroke-width="4"/>
+  <circle cx="350" cy="252" r="16" fill="none" stroke="#ffb84d" stroke-width="4"/>
+  <path d="M260 198h70M368 164l28 26M396 214l-32 27M426 202h64" stroke="#f5f5f5" stroke-opacity=".5" stroke-width="4"/>
+  <path d="M490 174c40 0 40 56 0 56s-40-56 0-56zm0 56v52m-38 0c0 18 76 18 76 0" fill="none" stroke="#ffb84d" stroke-opacity=".74" stroke-width="4"/>
+  <text x="106" y="324" fill="#ffb84d" font-family="monospace" font-size="20" letter-spacing="3">EMBEDDING WORKSTATION</text>
+</svg>
