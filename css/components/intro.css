@@ -8,7 +8,7 @@
     align-items: center;
     text-align: center;
     font-family: 'JetBrains Mono', ui-monospace, monospace;
-    color: #ffb84d;
+    color: #f5f5f5;
     z-index: 1;
 }
 
@@ -36,7 +36,25 @@
     font-weight: 400;
     letter-spacing: 0.18em;
     text-transform: uppercase;
+    color: #f5f5f5;
     text-shadow:
-        0 0 6px rgba(255, 184, 77, 0.55),
-        0 0 16px rgba(255, 140, 40, 0.35);
+        0 0 6px rgba(255, 255, 255, 0.45),
+        0 0 16px rgba(255, 255, 255, 0.25);
+}
+
+.intro__role {
+    margin-top: 1.6em;
+    font-size: clamp(0.85rem, 1.5vw, 1.1rem);
+    font-weight: 500;
+    letter-spacing: 0.32em;
+    text-transform: uppercase;
+    color: #f5f5f5;
+    text-shadow:
+        0 0 6px rgba(255, 255, 255, 0.4),
+        0 0 16px rgba(255, 255, 255, 0.2);
+}
+
+.intro__role::before {
+    content: '// ';
+    opacity: 0.6;
 }
