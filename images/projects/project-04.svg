@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400">
+  <rect width="600" height="400" fill="#0a0a0a"/>
+  <g stroke="#ffb84d" stroke-width="1" fill="none" opacity="0.7">
+    <path d="M40 280 L120 240 L200 270 L280 220 L360 250 L440 200 L520 230 L560 215"/>
+    <path d="M40 310 L120 270 L200 300 L280 250 L360 280 L440 230 L520 260 L560 245"/>
+    <path d="M40 340 L120 300 L200 330 L280 280 L360 310 L440 260 L520 290 L560 275"/>
+    <path d="M40 370 L120 330 L200 360 L280 310 L360 340 L440 290 L520 320 L560 305"/>
+  </g>
+  <g stroke="#ffb84d" stroke-width="0.6" opacity="0.35">
+    <line x1="40" y1="280" x2="40" y2="370"/>
+    <line x1="120" y1="240" x2="120" y2="330"/>
+    <line x1="200" y1="270" x2="200" y2="360"/>
+    <line x1="280" y1="220" x2="280" y2="310"/>
+    <line x1="360" y1="250" x2="360" y2="340"/>
+    <line x1="440" y1="200" x2="440" y2="290"/>
+    <line x1="520" y1="230" x2="520" y2="320"/>
+  </g>
+  <g fill="#ffffff" opacity="0.55">
+    <circle cx="100" cy="80" r="1.5"/>
+    <circle cx="500" cy="100" r="1"/>
+    <circle cx="300" cy="60" r="1.5"/>
+    <circle cx="420" cy="140" r="1"/>
+    <circle cx="180" cy="160" r="1"/>
+  </g>
+  <g font-family="monospace" font-size="11" fill="#ffb84d" opacity="0.8">
+    <text x="20" y="30">// PROJECT 04</text>
+    <text x="20" y="380">[TERRAIN-MAP]</text>
+  </g>
+  <g stroke="#ffb84d" stroke-width="1" opacity="0.5">
+    <path d="M10 10 L30 10 M10 10 L10 30"/>
+    <path d="M590 10 L570 10 M590 10 L590 30"/>
+    <path d="M10 390 L30 390 M10 390 L10 370"/>
+    <path d="M590 390 L570 390 M590 390 L590 370"/>
+  </g>
+</svg>
