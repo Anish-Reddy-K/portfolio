@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <rect width="400" height="400" fill="#0a0a0a"/>
+
+  <!-- Speaker silhouette + microphone -->
+  <g fill="#ffb84d" opacity="0.9">
+    <circle cx="200" cy="155" r="32"/>
+    <path d="M150 290 q0 -75 50 -75 q50 0 50 75 v40 h-100 z"/>
+  </g>
+
+  <!-- Microphone -->
+  <g fill="none" stroke="#ffb84d" stroke-width="1.6" opacity="0.95">
+    <rect x="115" y="180" width="22" height="44" rx="11"/>
+    <line x1="126" y1="224" x2="126" y2="260"/>
+    <line x1="110" y1="260" x2="142" y2="260"/>
+  </g>
+
+  <!-- Audience dots -->
+  <g fill="#ffb84d" opacity="0.5">
+    <circle cx="60" cy="345" r="5"/>
+    <circle cx="100" cy="350" r="5"/>
+    <circle cx="140" cy="348" r="5"/>
+    <circle cx="260" cy="350" r="5"/>
+    <circle cx="300" cy="345" r="5"/>
+    <circle cx="340" cy="350" r="5"/>
+  </g>
+
+  <!-- Sound waves -->
+  <g fill="none" stroke="#ffb84d" stroke-width="0.8" opacity="0.4">
+    <path d="M148 195 q-16 10 0 20"/>
+    <path d="M138 188 q-26 15 0 33"/>
+    <path d="M128 180 q-40 22 0 50"/>
+  </g>
+
+  <g font-family="monospace" font-size="9" fill="#ffb84d" opacity="0.85">
+    <text x="14" y="22">// LOG-003</text>
+    <text x="14" y="385">[BROADCAST]</text>
+  </g>
+
+  <rect x="6" y="6" width="388" height="388" fill="none" stroke="#ffb84d" stroke-width="0.8" opacity="0.4"/>
+</svg>

@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="css/components/greeting.css">
     <link rel="stylesheet" href="css/components/sections.css">
     <link rel="stylesheet" href="css/components/projects.css">
+    <link rel="stylesheet" href="css/components/activities.css">
 </head>
 <body>
     <div id="background-container"></div>
@@ -125,7 +126,59 @@
             <span class="section__index">[03]</span>
             <h2 class="section__title">Activities</h2>
         </header>
-        <p class="section__placeholder">Placeholder — talks, writing, side quests go here.</p>
+        <div class="activities-log">
+            <article class="activity-entry">
+                <div class="activity-entry__photo">
+                    <img src="images/activities/activity-01.svg" alt="">
+                </div>
+                <div class="activity-entry__body">
+                    <div class="activity-entry__meta">
+                        <span>LOG-001</span>
+                        <span class="activity-entry__date">Mar 2024</span>
+                    </div>
+                    <h3 class="activity-entry__title">Hackathon Title</h3>
+                    <p class="activity-entry__desc">Short description of what this activity was about — what you organized, who came, what got built.</p>
+                    <ul class="activity-entry__tags">
+                        <li class="activity-entry__tag">Organizer</li>
+                        <li class="activity-entry__tag">300+ attendees</li>
+                    </ul>
+                </div>
+            </article>
+            <article class="activity-entry">
+                <div class="activity-entry__photo">
+                    <img src="images/activities/activity-02.svg" alt="">
+                </div>
+                <div class="activity-entry__body">
+                    <div class="activity-entry__meta">
+                        <span>LOG-002</span>
+                        <span class="activity-entry__date">Nov 2023</span>
+                    </div>
+                    <h3 class="activity-entry__title">Award / Recognition</h3>
+                    <p class="activity-entry__desc">Short description of the award and what it was for.</p>
+                    <ul class="activity-entry__tags">
+                        <li class="activity-entry__tag">Award</li>
+                        <li class="activity-entry__tag">1st place</li>
+                    </ul>
+                </div>
+            </article>
+            <article class="activity-entry">
+                <div class="activity-entry__photo">
+                    <img src="images/activities/activity-03.svg" alt="">
+                </div>
+                <div class="activity-entry__body">
+                    <div class="activity-entry__meta">
+                        <span>LOG-003</span>
+                        <span class="activity-entry__date">Aug 2023</span>
+                    </div>
+                    <h3 class="activity-entry__title">Talk / Workshop</h3>
+                    <p class="activity-entry__desc">Short description of the talk — venue, audience, topic.</p>
+                    <ul class="activity-entry__tags">
+                        <li class="activity-entry__tag">Speaker</li>
+                        <li class="activity-entry__tag">Workshop</li>
+                    </ul>
+                </div>
+            </article>
+        </div>
     </section>
 
     <script src="js/components/dark_starfield_bg.js"></script>

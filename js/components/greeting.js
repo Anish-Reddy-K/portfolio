@@ -2,7 +2,6 @@
     'use strict';
 
     const TIMING = {
-        INITIAL_DELAY: 1500,
         ROTATION_INTERVAL: 3600,
         FADE_DURATION: 800
     };
@@ -26,7 +25,7 @@
         const el = document.getElementById('greeting');
         if (!el) return;
 
-        let index = 0;
+        let index = Math.floor(Math.random() * GREETINGS.length);
 
         function show() {
             const g = GREETINGS[index];
@@ -51,7 +50,7 @@
             }, visibleTime);
         }
 
-        setTimeout(cycle, TIMING.INITIAL_DELAY);
+        cycle();
     }
 
     if (document.readyState === 'loading') {
