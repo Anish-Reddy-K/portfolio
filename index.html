@@ -23,7 +23,12 @@
         <a href="#experience" class="navbar__link">Experience</a>
         <a href="#projects" class="navbar__link">Projects</a>
         <a href="#activities" class="navbar__link">Activities</a>
-        <a href="resume.pdf" class="navbar__resume" download>Download Resume</a>
+        <a href="resume.pdf" class="navbar__resume" download aria-label="Download resume">
+            <span>Resume</span>
+            <svg class="navbar__resume-icon" viewBox="0 0 16 16" aria-hidden="true" focusable="false">
+                <path d="M8 3v9m0 0 3.5-3.5M8 12 4.5 8.5" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="square" stroke-linejoin="miter"/>
+            </svg>
+        </a>
     </nav>
 
     <section class="intro">
@@ -388,7 +393,8 @@
     <footer class="site-footer">
         <div class="site-footer__location">
             <strong>Waterloo, Canada</strong>
-            <span>43.4643° N, 80.5204° W</span>
+            <span>43.4643° N</span>
+            <span>80.5204° W</span>
         </div>
         <nav class="site-footer__links" aria-label="Social links">
             <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn</a>

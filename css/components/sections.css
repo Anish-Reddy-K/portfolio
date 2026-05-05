@@ -21,9 +21,6 @@
     color: #ffb84d;
     font-size: 0.9rem;
     letter-spacing: 0.2em;
-    text-shadow:
-        0 0 6px rgba(255, 184, 77, 0.55),
-        0 0 16px rgba(255, 140, 40, 0.35);
 }
 
 .section__title {
@@ -32,9 +29,6 @@
     letter-spacing: 0.18em;
     text-transform: uppercase;
     color: #ffb84d;
-    text-shadow:
-        0 0 6px rgba(255, 184, 77, 0.55),
-        0 0 16px rgba(255, 140, 40, 0.35);
     margin: 0;
 }
 

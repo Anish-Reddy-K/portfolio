@@ -11,9 +11,6 @@ body {
     background: #000;
     color: #f5f5f5;
     font-family: 'JetBrains Mono', ui-monospace, monospace;
-    text-shadow:
-        0 0 8px rgba(255, 184, 77, 0.55),
-        0 0 22px rgba(255, 140, 40, 0.35);
 }
 
 #background-container {
@@ -33,48 +30,62 @@ body {
     padding: 2rem;
     display: flex;
     justify-content: space-between;
-    gap: 1.5rem;
+    gap: 2rem;
     border-top: 1px solid rgba(255, 184, 77, 0.35);
     color: #f5f5f5;
     font-family: 'JetBrains Mono', ui-monospace, monospace;
     font-size: 0.75rem;
-    letter-spacing: 0.14em;
+    letter-spacing: 0.08em;
     text-transform: uppercase;
+}
+
+.site-footer::before {
+    content: '';
+    position: absolute;
+    inset: 0 1rem;
+    background: rgba(0, 0, 0, 0.36);
+    filter: blur(16px);
+    z-index: -1;
+    pointer-events: none;
 }
 
 .site-footer__location {
     display: flex;
     flex-wrap: wrap;
-    gap: 0.65rem;
+    column-gap: 1rem;
+    row-gap: 0.4rem;
     align-items: center;
 }
 
 .site-footer__location span {
-    opacity: 0.74;
+    color: rgba(245, 245, 245, 0.68);
 }
 
 .site-footer__location strong {
     color: #ffb84d;
-    font-weight: 700;
+    font-weight: 500;
 }
 
 .site-footer__links {
     display: flex;
     flex-wrap: wrap;
-    gap: 0.8rem;
+    gap: 1rem;
     justify-content: flex-end;
 }
 
 .site-footer__links a {
-    color: #f5f5f5;
-    text-decoration: none;
-    border-bottom: 1px solid rgba(255, 184, 77, 0.45);
-    padding-bottom: 0.12rem;
+    color: rgba(245, 245, 245, 0.78);
+    text-decoration: underline;
+    text-decoration-color: rgba(255, 184, 77, 0.42);
+    text-underline-offset: 0.22rem;
+    text-decoration-thickness: 1px;
+    transition: color 120ms ease;
 }
 
 .site-footer__links a:hover,
 .site-footer__links a:focus-visible {
     color: #ffb84d;
+    text-decoration-color: #ffb84d;
     outline: none;
 }
 
