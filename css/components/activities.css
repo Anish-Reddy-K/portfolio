@@ -7,7 +7,7 @@
 
 .activity-entry {
     display: grid;
-    grid-template-columns: 1fr 180px;
+    grid-template-columns: minmax(0, 1fr) 180px;
     gap: 1.5rem;
     padding: 1.5rem 0;
     border-bottom: 1px dashed rgba(245, 245, 245, 0.18);
@@ -30,9 +30,7 @@
 }
 
 .activity-entry--text {
-    grid-template-columns: 1fr;
     cursor: default;
-    padding-left: 1rem;
 }
 
 .activity-entry--text .activity-entry__body {
@@ -111,7 +109,6 @@
 /* Body */
 .activity-entry__body {
     grid-column: 1;
-    grid-row: 1;
     display: flex;
     flex-direction: column;
     gap: 0.55rem;
