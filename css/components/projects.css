@@ -123,3 +123,35 @@
     line-height: 1.55;
     opacity: 0.78;
 }
+
+.project-card__favourite {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #ffb84d;
+    color: #000;
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    padding: 0.3rem 1rem;
+    pointer-events: none;
+    z-index: 3;
+}
+
+.project-card__pinned {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #ffb84d;
+    color: #000;
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    padding: 0.3rem 1rem;
+    pointer-events: none;
+    z-index: 3;
+}
