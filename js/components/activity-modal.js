@@ -73,8 +73,13 @@
         }
 
         entries.forEach((entry) => {
-            entry.addEventListener('click', () => openModal(entry));
+            entry.addEventListener('click', (event) => {
+                if (event.target.closest('a, button, input, select, textarea')) return;
+                openModal(entry);
+            });
             entry.addEventListener('keydown', (event) => {
+                if (event.target.closest('a, button, input, select, textarea')) return;
+
                 if (event.key === 'Enter' || event.key === ' ') {
                     event.preventDefault();
                     openModal(entry);
