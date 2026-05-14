@@ -1,0 +1,254 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,10pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[colorlinks=true, urlcolor=RoyalBlue, linkcolor=RoyalBlue]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    \textbf{\LARGE \scshape Anish Reddy} \\ \vspace{3pt}
+    \footnotesize 437-557-2209 $|$ \href{mailto:anishreddy3456@gmail.com}{anishreddy3456@gmail.com} $|$ 
+    \href{https://linkedin.com/in/anishreddyk}{linkedin.com/in/anishreddyk} $|$
+    \href{https://github.com/Anish-Reddy-K}{github.com/Anish-Reddy-K} $|$
+    \href{https://arkr.ca}{arkr.ca} $|$
+    Waterloo, Canada
+\end{center}
+
+
+%-----------TECHNICAL SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages \& Frameworks}{: Python, C/C++, SQL (BigQuery, Postgres), FastAPI, TypeScript, React, Next.js} \\
+     \textbf{AI Engineering}{: RAG, AI Agents, Multi-Agent Systems, LangChain, LangGraph, MCP, Tool Calling, LLM Evaluation} \\
+     \textbf{ML \& Evaluation}{: PyTorch, Hugging Face Transformers, Scikit-learn, MLflow, Model Evaluation, OpenCV, NumPy} \\
+     \textbf{Cloud, Data \& Systems}{: GCP, Vertex AI, Azure, Docker, Airflow, Redis, Clourflare, Pinecone, pgvector}
+    }}
+ \end{itemize}
+
+% See skill-bank.txt for targeted ATS swaps.
+
+
+%-----------EXPERIENCE-----------
+\section{Professional Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {AI Engineer Intern}{May 2025 -- Present}
+      {Geotab}{Waterloo, ON}
+      \resumeItemListStart
+        \resumeItem{Engineered a production Data Quality Assistant with a root-cause agent that traces BigQuery, Airflow, metadata, data contracts, and code paths, isolates upstream breakpoints, and converts failed checks into owner-ready remediation guidance.}
+        \resumeItem{Rewrote data lineage across a petabyte-scale ecosystem, improving accuracy from $\sim$90\% to near-100\% for data traceability.}
+        \resumeItem{Implemented anomaly and schema-drift detectors for critical data assets, catching silent failures before downstream impact.}
+        \resumeItem{Built proactive alerting that notifies data owners of detected anomalies and changes, enabling faster issue resolution.}
+      \resumeItemListEnd
+      \vspace{6pt}
+      
+    \resumeSubheading
+      {AI Engineer Intern}{Jan 2025 -- Apr 2025}
+      {Brisk AI}{Waterloo, ON}
+      \resumeItemListStart
+        \resumeItem{Engineered role-based agents for Brisk's agentic AI suite, automating operational workflows across enterprise teams.}
+        \resumeItem{Integrated agents with enterprise systems and internal tools, enabling context-aware actions beyond static chat responses.}
+        \resumeItem{Built a field troubleshooting agent that diagnoses on-site issues, guides technicians, and captures expert workflows.}
+      \resumeItemListEnd
+      \vspace{6pt}
+
+    \resumeSubheading
+      {AI/ML Engineer Intern}{May 2024 -- Apr 2025}
+      {OCAS}{Waterloo, ON}
+      \resumeItemListStart
+        \resumeItem{Built and launched \href{https://advisor.beta.ontariocolleges.ca/}{AI Advisor}, a RAG chatbot used by 1,000+ high schoolers to match interests to college programs.}
+        \resumeItem{Built a resume parser extracting skills, education, and career signals to personalize Ontario college recommendations.}
+        \resumeItem{Deployed AI Advisor on Azure with vector search, guardrails, and monitoring for reliable student-facing recommendations.}
+      \resumeItemListEnd
+      \vspace{6pt}
+
+    \resumeSubheading
+      {AI/ML Research Intern}{Sep 2023 -- Apr 2024}
+      {SMART Centre}{Waterloo, ON}
+      \resumeItemListStart
+        \resumeItem{Optimized small language models for edge devices, reducing memory and compute under tight embedded constraints.}
+        \resumeItem{Deployed speech-to-text models on embedded systems, reducing latency while preserving transcription quality.}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------
+\section{Notable Projects \& Startups \hfill \normalfont\small\href{https://arkr.ca/projects}{View All Projects}}
+    \resumeSubHeadingListStart
+	      \resumeProjectHeading
+	          {\href{https://identpix.com}{\textbf{Identipix}} $|$ \emph{Founder - AI photo delivery and lead-gen platform for photographers and studios} $|$ \href{https://identpix.com}{Technical Overview}}{}
+	          \resumeItemListStart
+	            \resumeItem{Built an AI photo delivery platform that matches guest selfies to event images to generate private galleries and studio leads.}
+	          \resumeItemListEnd
+	      \resumeProjectHeading
+	          {\textbf{Aqua Pinion} $|$ \emph{Drowning Detection and Prevention Chest Strap}}{}
+	          \resumeItemListStart
+	            \resumeItem{Engineered a sensor-driven wearable using ML to detect drowning with 95\%+ precision and deploy a life-saving inflatable.}
+	          \resumeItemListEnd
+	      \resumeProjectHeading
+	          {\href{https://hubrix.ca}{\textbf{Hubrix}} $|$ \emph{Co-Founder, Modular LED Wall Dashboard}}{}
+	          \resumeItemListStart
+	            \resumeItem{Built a modular LED wall made of tiles that snap into any shape and turns live data into ambient, glanceable dashboards.}
+	          \resumeItemListEnd
+	      \resumeProjectHeading
+	          {\href{https://github.com/Anish-Reddy-K/diagrammer.git}{\textbf{Diagrammer}} $|$ \emph{Python diagram renderer, Claude Code/Codex Skill, MCP Server}}{}
+	          \resumeItemListStart
+	            \resumeItem{Built an AI agent-native renderer that turns JSON specs into clean SVG diagrams for docs, blogs, PRs, and slides.}
+	          \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+
+%-----------ACTIVITIES-----------
+\section{Activities \& Leadership}
+    \resumeSubHeadingListStart
+        \item\small{
+            \textbf{Founder \& Lead Organizer} $|$ \emph{\href{https://conhacks.io}{\textbf{ConHacks}}} -- Founded and led 3 hackathon iterations, scaling to 200+ participants in 3 years. \vspace{-2pt}
+        }
+        \item\small{
+            Secured 600+ registrations, 200+ attendees and 15+ sponsors for ConHacks 2026, executed end-to-end by a lean 3 member team. \vspace{-2pt}
+        }
+        \item\small{
+            \textbf{Co-Founder \& President} $|$ \emph{\href{https://conestogacomputingsociety.com}{\textbf{Conestoga Computing Society}}} -- Founded a 300-member CS community; hosted multiple events. \vspace{-2pt}
+        }
+        \item\small{
+            \textbf{Executive Lead (Former)} $|$ \emph{Google Developers Group - On Campus} -- Organized workshops, speaker series, and other events. \vspace{-2pt}
+        }
+        \item\small{
+            \textbf{Student Lead (Former)} $|$ \emph{ATAL Tinkering Labs} -- Helped 100+ students with projects, winning Student Innovator of the Year. \vspace{-2pt}
+        }
+        \item\small{
+            \textbf{Leader \& Tutor (Former)} $|$ \emph{Peer-Assisted Learning} -- Tutored $\sim$20 students in C \& DSA, improving grades by 50\% on average. \vspace{-2pt}
+        }
+    \resumeSubHeadingListEnd
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Bachelor of Computer Science (Honours)}{Sep 2026 (Expected)}
+      {Conestoga College, Waterloo}{}
+  \resumeSubHeadingListEnd
+
+
+%-----------AWARDS-----------
+\section{Awards \& Achievements}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Awards}{: HackThe6ix (Best Beginner Hack), NIRD RISC (Gold Medal), FGSI (Gold Medal), CSI Student Service Award} \\
+     \textbf{Community}{: Mentor (Hack The North, Hawk Hacks), Judge (GDSC Hacks, ConHacks), Speaker (GDG, Queen's University)}
+    }}
+ \end{itemize}
+
+
+%-------------------------------------------
+\end{document}

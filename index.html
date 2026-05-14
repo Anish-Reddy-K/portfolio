@@ -34,7 +34,7 @@
     <section class="intro">
         <h1 id="greeting" class="greeting" aria-live="polite"></h1>
         <p class="intro__name">I'm Anish Reddy</p>
-        <p class="intro__role">AI engineer building agents, a hardware startup, and tech communities. Into space, science, engineering, and making cool stuff.</p>
+        <p class="intro__role">AI engineer building agents, a hardware + software startup, and tech communities. Passionate about space, science, engineering, and making cool hardware projects.</p>
     </section>
 
     <section id="experience" class="section">
@@ -60,9 +60,10 @@
                         </div>
                     </dl>
                     <ul class="experience-entry__bullets">
-                        <li>Engineered a multi-agent Data Quality Assistant using Google ADK and BigQuery.</li>
-                        <li>Rewrote data lineage for a petabyte-scale ecosystem, closing coverage gaps and improving maintainability.</li>
-                        <li>Deployed anomaly and schema-drift detection with proactive alerting for data pipelines.</li>
+                        <li>Engineered a production Data Quality Assistant with a root-cause agent that traces BigQuery, Airflow, metadata, data contracts, and code paths to isolate upstream breakpoints and generate owner-ready remediation guidance.</li>
+                        <li>Rewrote data lineage across a petabyte-scale ecosystem, improving accuracy from ~90% to near-100% for full data traceability.</li>
+                        <li>Implemented anomaly and schema-drift detectors for critical data assets, catching silent failures before downstream impact.</li>
+                        <li>Built proactive alerting that notifies data owners of detected anomalies and changes, enabling faster issue resolution.</li>
                     </ul>
                 </div>
             </article>
@@ -143,7 +144,7 @@
                 <div class="experience-entry__panel">
                     <div class="experience-entry__main">
                         <p class="experience-entry__company">OCAS</p>
-                        <h3 class="experience-entry__role">AI Engineer Intern</h3>
+                        <h3 class="experience-entry__role">AI/ML Engineer Intern</h3>
                     </div>
                     <dl class="experience-entry__meta">
                         <div>
@@ -156,9 +157,9 @@
                         </div>
                     </dl>
                     <ul class="experience-entry__bullets">
-                        <li>Engineered the AI Advisor chatbot using RAG to match students with college programs.</li>
-                        <li>Built a resume parsing engine that maps user skills to program requirements.</li>
-                        <li>Deployed a <a href="https://advisor.beta.ontariocolleges.ca/" target="_blank" rel="noreferrer">beta advisor</a> used by 1000+ students for personalized education discovery.</li>
+                        <li>Built and launched <a href="https://advisor.beta.ontariocolleges.ca/" target="_blank" rel="noreferrer">AI Advisor</a>, a RAG chatbot used by 1,000+ high schoolers to match interests to college programs.</li>
+                        <li>Built a resume parser extracting skills, education, and career signals to personalize Ontario college recommendations.</li>
+                        <li>Deployed AI Advisor on Azure with vector search, guardrails, and monitoring for reliable student-facing recommendations.</li>
                     </ul>
                 </div>
             </article>
@@ -323,20 +324,20 @@
                     </a>
                 </div>
                 <div class="project-card__body">
-                    <h3 class="project-card__title"><a href="#">Vector Search Workflows</a></h3>
-                    <p class="project-card__desc">RAG-oriented workflows using vector databases and retrieval tooling for AI applications.</p>
+                    <h3 class="project-card__title"><a href="#">Aqua Pinion</a></h3>
+                    <p class="project-card__desc">Sensor-driven drowning detection chest strap using ML with 95%+ precision, triggering a life-saving inflatable on detection.</p>
                 </div>
             </div>
             <div class="project-card">
                 <div class="project-card__media">
                     <img src="images/projects/project-06.svg" alt="">
-                    <a href="#" class="project-card__github" aria-label="GitHub repository" onclick="event.stopPropagation()">
+                    <a href="https://github.com/Anish-Reddy-K/terminal-wrapped" class="project-card__github" aria-label="GitHub repository" onclick="event.stopPropagation()" target="_blank" rel="noreferrer">
                         <svg viewBox="0 0 16 16" fill="currentColor"><path d="M8 0C3.58 0 0 3.58 0 8a8 8 0 0 0 5.47 7.59c.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8Z"/></svg>
                     </a>
                 </div>
                 <div class="project-card__body">
-                    <h3 class="project-card__title"><a href="#">Model Ops Tooling</a></h3>
-                    <p class="project-card__desc">ML and data operations experience across GCP, Azure ML, MLflow, Airflow, and Docker.</p>
+                    <h3 class="project-card__title"><a href="https://github.com/Anish-Reddy-K/terminal-wrapped" target="_blank" rel="noreferrer">terminal-wrapped</a></h3>
+                    <p class="project-card__desc">Spotify Wrapped for the command line — a Go CLI that turns your terminal history into a personal year-in-review.</p>
                 </div>
             </div>
         </div>
@@ -364,19 +365,19 @@
                     </ul>
                 </div>
             </article>
-            <article class="activity-entry" tabindex="0" role="button" aria-haspopup="dialog" data-title="ConHacks" data-date="President & Co-Founder" data-description="Executed a 130-participant hackathon, managing logistics and programming to drive student innovation." data-images="images/activities/activity-02.svg,images/activities/activity-03.svg,images/activities/activity-01.svg">
+            <article class="activity-entry" tabindex="0" role="button" aria-haspopup="dialog" data-title="ConHacks" data-date="Founder & Lead Organizer" data-description="Founded and led ConHacks across 3 iterations, scaling to 200+ participants. Secured 600+ registrations, 200+ attendees, and 15+ sponsors for ConHacks 2026, executed end-to-end by a lean 3-member team." data-images="images/activities/activity-02.svg,images/activities/activity-03.svg,images/activities/activity-01.svg">
                 <div class="activity-entry__photo">
                     <img src="images/activities/activity-02.svg" alt="">
                 </div>
                 <div class="activity-entry__body">
                     <div class="activity-entry__meta">
-                        <span class="activity-entry__date">President & Co-Founder</span>
+                        <span class="activity-entry__date">Founder & Lead Organizer</span>
                     </div>
                     <h3 class="activity-entry__title">ConHacks</h3>
-                    <p class="activity-entry__desc">Executed a 130-participant hackathon, managing logistics and programming to drive student innovation.</p>
+                    <p class="activity-entry__desc">Founded and led ConHacks across 3 iterations, scaling to 200+ participants. 600+ registrations and 15+ sponsors for ConHacks 2026.</p>
                     <ul class="activity-entry__tags">
                         <li class="activity-entry__tag">Hackathon</li>
-                        <li class="activity-entry__tag">130 participants</li>
+                        <li class="activity-entry__tag">200+ participants</li>
                     </ul>
                 </div>
             </article>
@@ -402,14 +403,14 @@
                         <span class="activity-entry__date">Student Lead</span>
                     </div>
                     <h3 class="activity-entry__title">ATAL Tinkering Labs</h3>
-                    <p class="activity-entry__desc">Led 150+ students in IoT and ML projects, winning 4 international awards.</p>
+                    <p class="activity-entry__desc">Helped 100+ students with IoT and ML projects, winning Student Innovator of the Year.</p>
                     <ul class="activity-entry__tags">
                         <li class="activity-entry__tag">IoT / ML</li>
-                        <li class="activity-entry__tag">4 awards</li>
+                        <li class="activity-entry__tag">Student Innovator of the Year</li>
                     </ul>
                 </div>
             </article>
-            <article class="activity-entry" tabindex="0" role="button" aria-haspopup="dialog" data-title="Peer-assisted Learning" data-date="Leader & Tutor" data-description="Tutored 25+ students in C and data structures, helping improve course grades." data-images="images/activities/activity-02.svg,images/activities/activity-01.svg,images/activities/activity-03.svg">
+            <article class="activity-entry" tabindex="0" role="button" aria-haspopup="dialog" data-title="Peer-assisted Learning" data-date="Leader & Tutor" data-description="Tutored ~20 students in C and DSA, improving grades by 50% on average." data-images="images/activities/activity-02.svg,images/activities/activity-01.svg,images/activities/activity-03.svg">
                 <div class="activity-entry__photo">
                     <img src="images/activities/activity-02.svg" alt="">
                 </div>
@@ -418,10 +419,10 @@
                         <span class="activity-entry__date">Leader & Tutor</span>
                     </div>
                     <h3 class="activity-entry__title">Peer-assisted Learning</h3>
-                    <p class="activity-entry__desc">Tutored 25+ students in C and data structures, helping improve course grades.</p>
+                    <p class="activity-entry__desc">Tutored ~20 students in C and DSA, improving grades by 50% on average.</p>
                     <ul class="activity-entry__tags">
                         <li class="activity-entry__tag">Tutor</li>
-                        <li class="activity-entry__tag">25+ students</li>
+                        <li class="activity-entry__tag">50% grade improvement</li>
                     </ul>
                 </div>
             </article>
