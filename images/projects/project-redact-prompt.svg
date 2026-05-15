@@ -1,14 +1,21 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" role="img" aria-labelledby="title desc">
-  <title id="title">redact-prompt thumbnail</title>
-  <desc id="desc">PII redaction pipeline masking sensitive prompt values before LLM calls.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" role="img" aria-labelledby="title">
+  <title id="title">redact-prompt — PII redaction before LLM calls</title>
   <rect width="640" height="400" fill="#05070b"/>
-  <rect x="78" y="96" width="212" height="206" fill="#0a0d12" stroke="#f5f5f5" stroke-opacity=".38" stroke-width="3"/>
-  <path d="M112 140h136M112 176h96M112 212h142M112 248h118" stroke="#f5f5f5" stroke-opacity=".55" stroke-width="8"/>
-  <rect x="142" y="168" width="84" height="18" fill="#ffb84d"/>
-  <rect x="190" y="240" width="78" height="18" fill="#ffb84d"/>
-  <path d="M302 198h76l-14-14m14 14-14 14" stroke="#ffb84d" stroke-width="5" fill="none"/>
-  <rect x="394" y="96" width="168" height="206" fill="#0a0d12" stroke="#ffb84d" stroke-opacity=".72" stroke-width="3"/>
-  <path d="M428 144h94M428 182h62M428 220h112M428 258h80" stroke="#f5f5f5" stroke-opacity=".55" stroke-width="8"/>
-  <text x="420" y="132" fill="#ffb84d" font-family="monospace" font-size="16">[EMAIL_1]</text>
-  <text x="420" y="330" fill="#ffb84d" font-family="monospace" font-size="20" letter-spacing="3">REDACT / RESTORE</text>
+  <path d="M0 50h640M0 100h640M0 150h640M0 200h640M0 250h640M0 300h640M0 350h640M50 0v400M100 0v400M150 0v400M200 0v400M250 0v400M300 0v400M350 0v400M400 0v400M450 0v400M500 0v400M550 0v400M600 0v400" stroke="#f5f5f5" stroke-opacity=".06"/>
+  <!-- Input text block (left) -->
+  <rect x="68" y="106" width="208" height="190" fill="#0a0d12" stroke="#f5f5f5" stroke-opacity=".38" stroke-width="2"/>
+  <path d="M100 148h148M100 186h148M100 222h148M100 258h148" stroke="#f5f5f5" stroke-opacity=".5" stroke-width="8"/>
+  <!-- PII redaction bars (amber covering parts of lines) -->
+  <rect x="138" y="139" width="88" height="18" fill="#ffb84d"/>
+  <rect x="100" y="213" width="72" height="18" fill="#ffb84d"/>
+  <!-- Arrow -->
+  <path d="M292 200h66" stroke="#ffb84d" stroke-width="4" fill="none"/>
+  <path d="M342 186l16 14-16 14" stroke="#ffb84d" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Output text block (right) -->
+  <rect x="374" y="106" width="196" height="190" fill="#0a0d12" stroke="#ffb84d" stroke-opacity=".72" stroke-width="3"/>
+  <path d="M404 148h136M404 186h136M404 222h136M404 258h136" stroke="#f5f5f5" stroke-opacity=".5" stroke-width="8"/>
+  <!-- Redacted labels -->
+  <text x="404" y="144" fill="#ffb84d" font-family="monospace" font-size="13">[NAME_1]</text>
+  <text x="404" y="218" fill="#ffb84d" font-family="monospace" font-size="13">[EMAIL_1]</text>
+  <text x="68" y="344" fill="#ffb84d" font-family="monospace" font-size="17" letter-spacing="2">PII REDACT → RESTORE</text>
 </svg>

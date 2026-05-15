@@ -1,29 +1,28 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400">
-  <rect width="600" height="400" fill="#0a0a0a"/>
-  <g stroke="#ffb84d" stroke-width="1.2" fill="none" opacity="0.85">
-    <path d="M40 200 Q 80 130 120 200 T 200 200 T 280 200 T 360 200 T 440 200 T 520 200 T 560 200"/>
-    <path d="M40 220 Q 100 280 160 220 T 280 220 T 400 220 T 520 220 T 560 220" opacity="0.6"/>
-  </g>
-  <g stroke="#ffb84d" stroke-width="0.5" opacity="0.3">
-    <line x1="40" y1="120" x2="560" y2="120"/>
-    <line x1="40" y1="160" x2="560" y2="160"/>
-    <line x1="40" y1="200" x2="560" y2="200"/>
-    <line x1="40" y1="240" x2="560" y2="240"/>
-    <line x1="40" y1="280" x2="560" y2="280"/>
-    <line x1="100" y1="100" x2="100" y2="300"/>
-    <line x1="200" y1="100" x2="200" y2="300"/>
-    <line x1="300" y1="100" x2="300" y2="300"/>
-    <line x1="400" y1="100" x2="400" y2="300"/>
-    <line x1="500" y1="100" x2="500" y2="300"/>
-  </g>
-  <g font-family="monospace" font-size="11" fill="#ffb84d" opacity="0.8">
-    <text x="20" y="30">// PROJECT 06</text>
-    <text x="20" y="380">[SPECTRUM]</text>
-  </g>
-  <g stroke="#ffb84d" stroke-width="1" opacity="0.5">
-    <path d="M10 10 L30 10 M10 10 L10 30"/>
-    <path d="M590 10 L570 10 M590 10 L590 30"/>
-    <path d="M10 390 L30 390 M10 390 L10 370"/>
-    <path d="M590 390 L570 390 M590 390 L590 370"/>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" role="img" aria-labelledby="title">
+  <title id="title">terminal-wrapped — Spotify Wrapped for the command line</title>
+  <rect width="640" height="400" fill="#05070b"/>
+  <path d="M0 50h640M0 100h640M0 150h640M0 200h640M0 250h640M0 300h640M0 350h640M50 0v400M100 0v400M150 0v400M200 0v400M250 0v400M300 0v400M350 0v400M400 0v400M450 0v400M500 0v400M550 0v400M600 0v400" stroke="#f5f5f5" stroke-opacity=".06"/>
+  <!-- Terminal window -->
+  <rect x="78" y="70" width="484" height="262" fill="#090c11" stroke="#ffb84d" stroke-opacity=".7" stroke-width="3"/>
+  <rect x="78" y="70" width="484" height="36" fill="#ffb84d" fill-opacity=".12"/>
+  <circle cx="104" cy="88" r="5" fill="#ffb84d"/>
+  <circle cx="124" cy="88" r="5" fill="#f5f5f5" fill-opacity=".45"/>
+  <circle cx="144" cy="88" r="5" fill="#f5f5f5" fill-opacity=".25"/>
+  <text x="232" y="93" fill="#f5f5f5" font-family="monospace" font-size="13" opacity=".5">terminal-wrapped · 2024</text>
+  <!-- Command prompt line -->
+  <text x="106" y="140" fill="#ffb84d" font-family="monospace" font-size="14">$ terminal-wrapped --year 2024</text>
+  <!-- Ranked commands with bars -->
+  <text x="106" y="170" fill="#f5f5f5" font-family="monospace" font-size="13" opacity=".8">1  git</text>
+  <rect x="182" y="158" width="128" height="10" fill="#ffb84d" fill-opacity=".82"/>
+  <text x="322" y="170" fill="#f5f5f5" font-family="monospace" font-size="13" opacity=".6">438x</text>
+  <text x="106" y="198" fill="#f5f5f5" font-family="monospace" font-size="13" opacity=".7">2  python</text>
+  <rect x="198" y="186" width="93" height="10" fill="#ffb84d" fill-opacity=".62"/>
+  <text x="304" y="198" fill="#f5f5f5" font-family="monospace" font-size="13" opacity=".5">312x</text>
+  <text x="106" y="226" fill="#f5f5f5" font-family="monospace" font-size="13" opacity=".6">3  npm</text>
+  <rect x="174" y="214" width="60" height="10" fill="#ffb84d" fill-opacity=".45"/>
+  <text x="248" y="226" fill="#f5f5f5" font-family="monospace" font-size="13" opacity=".45">198x</text>
+  <text x="106" y="254" fill="#f5f5f5" font-family="monospace" font-size="13" opacity=".5">4  docker</text>
+  <rect x="196" y="242" width="42" height="10" fill="#ffb84d" fill-opacity=".3"/>
+  <text x="252" y="254" fill="#f5f5f5" font-family="monospace" font-size="13" opacity=".4">142x</text>
+  <text x="106" y="306" fill="#ffb84d" font-family="monospace" font-size="20" letter-spacing="3">TERMINAL WRAPPED</text>
 </svg>

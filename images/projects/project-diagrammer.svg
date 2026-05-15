@@ -1,16 +1,34 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" role="img" aria-labelledby="title desc">
-  <title id="title">diagrammer thumbnail</title>
-  <desc id="desc">Blueprint-style SVG diagram nodes connected by arrows.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" role="img" aria-labelledby="title">
+  <title id="title">diagrammer — JSON to SVG diagram renderer</title>
   <rect width="640" height="400" fill="#05070b"/>
   <path d="M0 50h640M0 100h640M0 150h640M0 200h640M0 250h640M0 300h640M0 350h640M50 0v400M100 0v400M150 0v400M200 0v400M250 0v400M300 0v400M350 0v400M400 0v400M450 0v400M500 0v400M550 0v400M600 0v400" stroke="#f5f5f5" stroke-opacity=".06"/>
-  <rect x="78" y="144" width="128" height="72" fill="#0a0d12" stroke="#ffb84d" stroke-width="3"/>
-  <rect x="262" y="82" width="128" height="72" fill="#0a0d12" stroke="#f5f5f5" stroke-opacity=".65" stroke-width="3"/>
-  <rect x="262" y="242" width="128" height="72" fill="#0a0d12" stroke="#f5f5f5" stroke-opacity=".65" stroke-width="3"/>
-  <path d="M206 180h46l-12-12m12 12-12 12M326 154v78l-12-12m12 12 12-12" stroke="#ffb84d" stroke-width="4" fill="none"/>
-  <path d="M390 118h64v160h-64" stroke="#ffb84d" stroke-width="4" fill="none"/>
-  <rect x="454" y="202" width="108" height="72" rx="36" fill="#0a0d12" stroke="#ffb84d" stroke-opacity=".82" stroke-width="3"/>
-  <text x="104" y="187" fill="#f5f5f5" font-family="monospace" font-size="18">JSON</text>
-  <text x="288" y="126" fill="#f5f5f5" font-family="monospace" font-size="18">SPEC</text>
-  <text x="288" y="286" fill="#f5f5f5" font-family="monospace" font-size="18">SVG</text>
-  <text x="486" y="246" fill="#ffb84d" font-family="monospace" font-size="18">DOC</text>
+  <!-- JSON input block -->
+  <rect x="60" y="126" width="150" height="148" fill="#0a0d12" stroke="#f5f5f5" stroke-opacity=".4" stroke-width="2"/>
+  <text x="78" y="162" fill="#ffb84d" font-family="monospace" font-size="14">{ "nodes"</text>
+  <text x="78" y="186" fill="#f5f5f5" font-family="monospace" font-size="13" opacity=".65">  [A, B, C]</text>
+  <text x="78" y="210" fill="#ffb84d" font-family="monospace" font-size="14">"edges"</text>
+  <text x="78" y="234" fill="#f5f5f5" font-family="monospace" font-size="13" opacity=".65">  [A→B, B→C]</text>
+  <text x="78" y="258" fill="#f5f5f5" font-family="monospace" font-size="13" opacity=".65">}</text>
+  <!-- Arrow -->
+  <path d="M226 200h74" stroke="#ffb84d" stroke-width="4" fill="none"/>
+  <path d="M284 186l16 14-16 14" stroke="#ffb84d" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Node A -->
+  <rect x="318" y="112" width="80" height="46" fill="#0a0d12" stroke="#ffb84d" stroke-width="3"/>
+  <text x="343" y="141" fill="#f5f5f5" font-family="monospace" font-size="18">A</text>
+  <!-- Node B -->
+  <rect x="460" y="80" width="80" height="46" fill="#0a0d12" stroke="#f5f5f5" stroke-opacity=".5" stroke-width="2"/>
+  <text x="485" y="109" fill="#f5f5f5" font-family="monospace" font-size="18">B</text>
+  <!-- Node C -->
+  <rect x="460" y="262" width="80" height="46" fill="#0a0d12" stroke="#f5f5f5" stroke-opacity=".5" stroke-width="2"/>
+  <text x="485" y="291" fill="#f5f5f5" font-family="monospace" font-size="18">C</text>
+  <!-- Edges A→B and A→C -->
+  <path d="M398 132L460 98" stroke="#ffb84d" stroke-width="3" fill="none"/>
+  <path d="M398 148L460 270" stroke="#ffb84d" stroke-width="3" fill="none"/>
+  <!-- Edge B→C -->
+  <path d="M500 126v136" stroke="#f5f5f5" stroke-opacity=".35" stroke-width="2"/>
+  <!-- Arrowheads -->
+  <path d="M454 102l8-6-2 10" stroke="#ffb84d" stroke-width="2" fill="none"/>
+  <path d="M454 266l6 8 2-10" stroke="#ffb84d" stroke-width="2" fill="none"/>
+  <path d="M496 258l6 8-8 2" stroke="#f5f5f5" stroke-opacity=".35" stroke-width="2" fill="none"/>
+  <text x="60" y="344" fill="#ffb84d" font-family="monospace" font-size="17" letter-spacing="2">JSON → SVG DIAGRAM</text>
 </svg>

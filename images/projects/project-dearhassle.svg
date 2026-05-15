@@ -1,12 +1,21 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" role="img" aria-labelledby="title desc">
-  <title id="title">DearHassle thumbnail</title>
-  <desc id="desc">AI job application assistant composing tailored documents.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" role="img" aria-labelledby="title">
+  <title id="title">dear hassle — AI job application assistant</title>
   <rect width="640" height="400" fill="#05070b"/>
-  <rect x="86" y="80" width="260" height="238" fill="#0a0d12" stroke="#ffb84d" stroke-opacity=".7" stroke-width="3"/>
-  <path d="M126 132h180M126 168h140M126 204h170M126 240h112" stroke="#f5f5f5" stroke-opacity=".58" stroke-width="8"/>
-  <path d="M390 124h96l56 56v116H390z" fill="#090c11" stroke="#f5f5f5" stroke-opacity=".55" stroke-width="3"/>
-  <path d="M486 124v56h56" fill="none" stroke="#f5f5f5" stroke-opacity=".55" stroke-width="3"/>
-  <circle cx="430" cy="218" r="18" fill="none" stroke="#ffb84d" stroke-width="4"/>
-  <path d="M448 218h54M502 218l-14-14m14 14-14 14" stroke="#ffb84d" stroke-width="4" fill="none"/>
-  <text x="98" y="354" fill="#ffb84d" font-family="monospace" font-size="20" letter-spacing="3">COVER LETTER AGENT</text>
+  <path d="M0 50h640M0 100h640M0 150h640M0 200h640M0 250h640M0 300h640M0 350h640M50 0v400M100 0v400M150 0v400M200 0v400M250 0v400M300 0v400M350 0v400M400 0v400M450 0v400M500 0v400M550 0v400M600 0v400" stroke="#f5f5f5" stroke-opacity=".06"/>
+  <!-- Resume / job doc (left) -->
+  <rect x="74" y="98" width="164" height="206" fill="#0a0d12" stroke="#f5f5f5" stroke-opacity=".4" stroke-width="2"/>
+  <path d="M106 140h102M106 170h82M106 200h110M106 230h66M106 260h96" stroke="#f5f5f5" stroke-opacity=".52" stroke-width="8"/>
+  <!-- AI node (centre) -->
+  <circle cx="320" cy="200" r="30" fill="#0a0d12" stroke="#ffb84d" stroke-width="3"/>
+  <text x="307" y="207" fill="#ffb84d" font-family="monospace" font-size="15" font-weight="bold">AI</text>
+  <!-- Connecting arrows -->
+  <path d="M238 200h52" stroke="#ffb84d" stroke-width="3" fill="none"/>
+  <path d="M274 187l16 13-16 13" stroke="#ffb84d" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M350 200h58" stroke="#ffb84d" stroke-width="3" fill="none"/>
+  <path d="M392 187l16 13-16 13" stroke="#ffb84d" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Cover letter / output (right) with fold corner -->
+  <path d="M408 98h140l52 52v154H408z" fill="#090c11" stroke="#ffb84d" stroke-opacity=".72" stroke-width="3"/>
+  <path d="M548 98v52h52" fill="none" stroke="#ffb84d" stroke-opacity=".72" stroke-width="3"/>
+  <path d="M436 180h116M436 208h98M436 236h112M436 264h72" stroke="#f5f5f5" stroke-opacity=".48" stroke-width="7"/>
+  <text x="98" y="350" fill="#ffb84d" font-family="monospace" font-size="17" letter-spacing="2">COVER LETTER AGENT</text>
 </svg>

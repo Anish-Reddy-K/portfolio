@@ -1,26 +1,27 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400">
-  <rect width="600" height="400" fill="#0a0a0a"/>
-  <g fill="none" stroke="#ffb84d" stroke-width="1" opacity="0.85">
-    <ellipse cx="300" cy="200" rx="220" ry="60"/>
-    <ellipse cx="300" cy="200" rx="170" ry="45" transform="rotate(20 300 200)"/>
-    <ellipse cx="300" cy="200" rx="120" ry="30" transform="rotate(-15 300 200)"/>
-    <circle cx="300" cy="200" r="40" fill="#1a1208"/>
-  </g>
-  <g fill="#ffffff" opacity="0.6">
-    <circle cx="80" cy="60" r="1.5"/>
-    <circle cx="520" cy="90" r="1"/>
-    <circle cx="150" cy="320" r="1.5"/>
-    <circle cx="480" cy="300" r="1"/>
-    <circle cx="60" cy="200" r="1"/>
-  </g>
-  <g font-family="monospace" font-size="11" fill="#ffb84d" opacity="0.8">
-    <text x="20" y="30">// PROJECT 01</text>
-    <text x="20" y="380">[ORBITAL]</text>
-  </g>
-  <g stroke="#ffb84d" stroke-width="1" opacity="0.5">
-    <path d="M10 10 L30 10 M10 10 L10 30"/>
-    <path d="M590 10 L570 10 M590 10 L590 30"/>
-    <path d="M10 390 L30 390 M10 390 L10 370"/>
-    <path d="M590 390 L570 390 M590 390 L590 370"/>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" role="img" aria-labelledby="title">
+  <title id="title">Identipix — AI photo delivery and lead-gen platform</title>
+  <rect width="640" height="400" fill="#05070b"/>
+  <path d="M0 50h640M0 100h640M0 150h640M0 200h640M0 250h640M0 300h640M0 350h640M50 0v400M100 0v400M150 0v400M200 0v400M250 0v400M300 0v400M350 0v400M400 0v400M450 0v400M500 0v400M550 0v400M600 0v400" stroke="#f5f5f5" stroke-opacity=".06"/>
+  <!-- Selfie frame -->
+  <rect x="78" y="108" width="158" height="192" fill="#0a0d12" stroke="#f5f5f5" stroke-opacity=".35" stroke-width="2"/>
+  <circle cx="157" cy="192" r="54" fill="none" stroke="#f5f5f5" stroke-opacity=".22" stroke-width="2"/>
+  <!-- Face detection corners (amber) -->
+  <path d="M98 128h30M98 128v30" stroke="#ffb84d" stroke-width="4" fill="none"/>
+  <path d="M216 128h-30M216 128v30" stroke="#ffb84d" stroke-width="4" fill="none"/>
+  <path d="M98 280h30M98 280v-30" stroke="#ffb84d" stroke-width="4" fill="none"/>
+  <path d="M216 280h-30M216 280v-30" stroke="#ffb84d" stroke-width="4" fill="none"/>
+  <!-- Arrow -->
+  <path d="M254 204h72" stroke="#ffb84d" stroke-width="3.5" fill="none"/>
+  <path d="M314 190l14 14-14 14" stroke="#ffb84d" stroke-width="3.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Photo gallery grid (2x3) -->
+  <rect x="346" y="98" width="88" height="62" fill="#0a0d12" stroke="#f5f5f5" stroke-opacity=".28" stroke-width="2"/>
+  <rect x="448" y="98" width="88" height="62" fill="#0a0d12" stroke="#ffb84d" stroke-width="3"/>
+  <rect x="346" y="172" width="88" height="62" fill="#0a0d12" stroke="#f5f5f5" stroke-opacity=".28" stroke-width="2"/>
+  <rect x="448" y="172" width="88" height="62" fill="#0a0d12" stroke="#f5f5f5" stroke-opacity=".28" stroke-width="2"/>
+  <rect x="346" y="246" width="88" height="62" fill="#0a0d12" stroke="#ffb84d" stroke-width="3"/>
+  <rect x="448" y="246" width="88" height="62" fill="#0a0d12" stroke="#f5f5f5" stroke-opacity=".28" stroke-width="2"/>
+  <!-- Match checkmarks on highlighted photos -->
+  <path d="M464 126l8 9 17-20" stroke="#ffb84d" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M362 274l8 9 17-20" stroke="#ffb84d" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="78" y="345" fill="#ffb84d" font-family="monospace" font-size="17" letter-spacing="2">MATCH SELFIE → PRIVATE GALLERY</text>
 </svg>

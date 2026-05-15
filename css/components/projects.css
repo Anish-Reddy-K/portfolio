@@ -124,6 +124,21 @@
     opacity: 0.78;
 }
 
+.project-card__blog-link {
+    position: relative;
+    z-index: 2;
+    align-self: flex-start;
+    font-size: 0.75rem;
+    color: rgba(245, 245, 245, 0.55);
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    transition: color 120ms ease;
+}
+
+.project-card__blog-link:hover {
+    color: #ffb84d;
+}
+
 .project-card__favourite {
     position: absolute;
     top: 0;

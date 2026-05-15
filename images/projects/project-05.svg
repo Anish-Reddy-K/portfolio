@@ -1,33 +1,21 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400">
-  <rect width="600" height="400" fill="#0a0a0a"/>
-  <g stroke="#ffb84d" stroke-width="1" fill="none" opacity="0.65">
-    <rect x="100" y="100" width="80" height="80"/>
-    <rect x="260" y="100" width="80" height="80"/>
-    <rect x="420" y="100" width="80" height="80"/>
-    <rect x="180" y="220" width="80" height="80"/>
-    <rect x="340" y="220" width="80" height="80"/>
-    <line x1="180" y1="140" x2="260" y2="140"/>
-    <line x1="340" y1="140" x2="420" y2="140"/>
-    <line x1="140" y1="180" x2="220" y2="220"/>
-    <line x1="300" y1="180" x2="300" y2="220"/>
-    <line x1="460" y1="180" x2="380" y2="220"/>
-    <line x1="260" y1="260" x2="340" y2="260"/>
-  </g>
-  <g fill="#ffb84d" opacity="0.85">
-    <rect x="135" y="135" width="10" height="10"/>
-    <rect x="295" y="135" width="10" height="10"/>
-    <rect x="455" y="135" width="10" height="10"/>
-    <rect x="215" y="255" width="10" height="10"/>
-    <rect x="375" y="255" width="10" height="10"/>
-  </g>
-  <g font-family="monospace" font-size="11" fill="#ffb84d" opacity="0.8">
-    <text x="20" y="30">// PROJECT 05</text>
-    <text x="20" y="380">[CIRCUIT]</text>
-  </g>
-  <g stroke="#ffb84d" stroke-width="1" opacity="0.5">
-    <path d="M10 10 L30 10 M10 10 L10 30"/>
-    <path d="M590 10 L570 10 M590 10 L590 30"/>
-    <path d="M10 390 L30 390 M10 390 L10 370"/>
-    <path d="M590 390 L570 390 M590 390 L590 370"/>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" role="img" aria-labelledby="title">
+  <title id="title">Aqua Pinion — ML drowning detection chest strap</title>
+  <rect width="640" height="400" fill="#05070b"/>
+  <path d="M0 50h640M0 100h640M0 150h640M0 200h640M0 250h640M0 300h640M0 350h640M50 0v400M100 0v400M150 0v400M200 0v400M250 0v400M300 0v400M350 0v400M400 0v400M450 0v400M500 0v400M550 0v400M600 0v400" stroke="#f5f5f5" stroke-opacity=".06"/>
+  <!-- Chart axes -->
+  <path d="M72 316V86M72 316H568" stroke="#f5f5f5" stroke-opacity=".28" stroke-width="2"/>
+  <!-- Normal sensor signal (grey, left) -->
+  <path d="M82 200 Q102 158 122 200 T162 200 T202 200 T242 200 T264 200" stroke="#f5f5f5" stroke-opacity=".45" stroke-width="3" fill="none"/>
+  <!-- Abnormal drowning signal (amber, right) -->
+  <path d="M264 200 L302 200 L317 264 L340 124 L362 200 L388 276 L412 134 L436 200 L458 200" stroke="#ffb84d" stroke-width="4" fill="none"/>
+  <!-- Threshold dashed line -->
+  <path d="M72 266H568" stroke="#ffb84d" stroke-opacity=".4" stroke-width="1.5" stroke-dasharray="10 5"/>
+  <!-- ALERT badge -->
+  <rect x="456" y="114" width="110" height="38" fill="#ffb84d"/>
+  <text x="474" y="141" fill="#05070b" font-family="monospace" font-size="21" font-weight="bold" letter-spacing="1">ALERT</text>
+  <!-- Life vest inflate ring -->
+  <ellipse cx="511" cy="240" rx="40" ry="24" fill="none" stroke="#ffb84d" stroke-opacity=".65" stroke-width="3"/>
+  <path d="M511 218v44" stroke="#ffb84d" stroke-width="3" fill="none"/>
+  <path d="M497 246l14 16 14-16" stroke="#ffb84d" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="82" y="352" fill="#ffb84d" font-family="monospace" font-size="17" letter-spacing="2">ML DROWNING DETECTION · 95%</text>
 </svg>

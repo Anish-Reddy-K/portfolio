@@ -1,15 +1,20 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" role="img" aria-labelledby="title desc">
-  <title id="title">pyperfstats thumbnail</title>
-  <desc id="desc">Terminal performance dashboard with CPU and memory charts.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" role="img" aria-labelledby="title">
+  <title id="title">pyperfstats — Python performance profiler</title>
   <rect width="640" height="400" fill="#05070b"/>
-  <rect x="70" y="70" width="500" height="260" fill="#090c11" stroke="#ffb84d" stroke-opacity=".72" stroke-width="3"/>
-  <rect x="70" y="70" width="500" height="38" fill="#ffb84d" fill-opacity=".14"/>
-  <circle cx="98" cy="89" r="5" fill="#ffb84d"/>
-  <circle cx="118" cy="89" r="5" fill="#f5f5f5" fill-opacity=".5"/>
-  <circle cx="138" cy="89" r="5" fill="#f5f5f5" fill-opacity=".3"/>
-  <path d="M112 268l48-72 56 40 58-86 70 58 70-96 72 130" fill="none" stroke="#ffb84d" stroke-width="5"/>
-  <path d="M112 280h386M112 132v148" stroke="#f5f5f5" stroke-opacity=".28" stroke-width="3"/>
-  <text x="112" y="154" fill="#f5f5f5" font-family="monospace" font-size="18">CPU 72%</text>
-  <text x="112" y="184" fill="#f5f5f5" font-family="monospace" font-size="18">MEM 41%</text>
-  <text x="112" y="314" fill="#ffb84d" font-family="monospace" font-size="20" letter-spacing="3">LIVE PROFILER</text>
+  <path d="M0 50h640M0 100h640M0 150h640M0 200h640M0 250h640M0 300h640M0 350h640M50 0v400M100 0v400M150 0v400M200 0v400M250 0v400M300 0v400M350 0v400M400 0v400M450 0v400M500 0v400M550 0v400M600 0v400" stroke="#f5f5f5" stroke-opacity=".06"/>
+  <!-- Terminal window -->
+  <rect x="70" y="68" width="500" height="264" fill="#090c11" stroke="#ffb84d" stroke-opacity=".72" stroke-width="3"/>
+  <rect x="70" y="68" width="500" height="36" fill="#ffb84d" fill-opacity=".13"/>
+  <circle cx="96" cy="86" r="5" fill="#ffb84d"/>
+  <circle cx="116" cy="86" r="5" fill="#f5f5f5" fill-opacity=".45"/>
+  <circle cx="136" cy="86" r="5" fill="#f5f5f5" fill-opacity=".25"/>
+  <!-- Stats labels -->
+  <text x="110" y="142" fill="#f5f5f5" font-family="monospace" font-size="15" opacity=".75">CPU  72%</text>
+  <text x="110" y="170" fill="#f5f5f5" font-family="monospace" font-size="15" opacity=".75">MEM  41%</text>
+  <text x="110" y="198" fill="#f5f5f5" font-family="monospace" font-size="15" opacity=".75">CALLS 1,204</text>
+  <!-- Chart area -->
+  <path d="M110 280h380M110 130v150" stroke="#f5f5f5" stroke-opacity=".25" stroke-width="2"/>
+  <!-- Performance line chart -->
+  <path d="M110 268 L158 220 L210 240 L262 168 L316 196 L368 142 L420 178 L472 130 L490 148" stroke="#ffb84d" stroke-width="4" fill="none"/>
+  <text x="110" y="310" fill="#ffb84d" font-family="monospace" font-size="19" letter-spacing="3">PYTHON PROFILER</text>
 </svg>
