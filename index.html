@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Anish Reddy - AI Engineer</title>
+    <title>Anish Reddy - Software Developer (AI)</title>
     <link rel="icon" type="image/x-icon" href="images/favicon/favicon.ico">
     <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
@@ -44,7 +44,7 @@
     <section class="intro">
         <h1 id="greeting" class="greeting" aria-live="polite"></h1>
         <p class="intro__name">I'm Anish Reddy</p>
-        <p class="intro__role">AI engineer building agents, a hardware + software startup, and tech communities. Passionate about space, science, engineering, and making cool hardware projects.</p>
+        <p class="intro__role">Software developer building AI products, a hardware + software startup, and tech communities. Passionate about space, science, engineering, and making cool hardware projects.</p>
     </section>
 
     <section id="experience" class="section">
@@ -56,13 +56,13 @@
             <article class="experience-entry">
                 <div class="experience-entry__panel">
                     <div class="experience-entry__main">
-                        <p class="experience-entry__company">Geotab</p>
-                        <h3 class="experience-entry__role">AI Engineer Intern</h3>
+                        <p class="experience-entry__company">Geotab - Internal Talent Marketplace</p>
+                        <h3 class="experience-entry__role">Software Developer (AI)</h3>
                     </div>
                     <dl class="experience-entry__meta">
                         <div>
                             <dt>Timeline</dt>
-                            <dd>May 2025 - Present</dd>
+                            <dd>Sep 2026 - Present</dd>
                         </div>
                         <div>
                             <dt>Base</dt>
@@ -70,10 +70,35 @@
                         </div>
                     </dl>
                     <ul class="experience-entry__bullets">
-                        <li>Engineered a production Data Quality Assistant with a root-cause agent that traces BigQuery, Airflow, metadata, data contracts, and code paths to isolate upstream breakpoints and generate owner-ready remediation guidance.</li>
-                        <li>Rewrote data lineage across a petabyte-scale ecosystem, improving accuracy from ~90% to near-100% for full data traceability.</li>
-                        <li>Implemented anomaly and schema-drift detectors for critical data assets, catching silent failures before downstream impact.</li>
-                        <li>Built proactive alerting that notifies data owners of detected anomalies and changes, enabling faster issue resolution.</li>
+                        <li>Architected and shipped Geotab's internal talent marketplace as sole developer (FastAPI, Next.js, PostgreSQL, GCP), giving 3,400 employees a skills-based view of 1,070 roles and their growth paths.</li>
+                        <li>Translated needs from People Ops, Total Rewards, and executive sponsors into product rules and plain-language decision records, designing a skills evidence model that never grades or ranks employees.</li>
+                        <li>Engineered a multi-LLM ensemble pipeline (Claude + GPT drafts, code-counted votes, validated output) that mapped 1,070 roles to 15K skill requirements, tuned over 3 eval rounds and reviewed by People Ops.</li>
+                        <li>Designed IDF-weighted role matching, typo-tolerant skill search, and grounded AI insights where every number is computed in code, powering career maps, gap analysis, and team reports.</li>
+                        <li>Shipped 500+ commits solo by pairing GitLab CI/CD (pytest, Cloud Run) with OpenCode agents and AI code review.</li>
+                    </ul>
+                </div>
+            </article>
+
+            <article class="experience-entry">
+                <div class="experience-entry__panel">
+                    <div class="experience-entry__main">
+                        <p class="experience-entry__company">Geotab - Data Quality</p>
+                        <h3 class="experience-entry__role">AI Engineer Intern</h3>
+                    </div>
+                    <dl class="experience-entry__meta">
+                        <div>
+                            <dt>Timeline</dt>
+                            <dd>May 2025 - Aug 2026</dd>
+                        </div>
+                        <div>
+                            <dt>Base</dt>
+                            <dd>Waterloo, ON</dd>
+                        </div>
+                    </dl>
+                    <ul class="experience-entry__bullets">
+                        <li>Built a production data quality agent that traced failed checks to their upstream root cause across BigQuery and Airflow.</li>
+                        <li>Rebuilt data lineage across a petabyte-scale ecosystem, raising lineage accuracy from ~90% to near-100%.</li>
+                        <li>Developed anomaly and schema-drift detectors with owner alerts, catching silent data failures before downstream impact.</li>
                     </ul>
                 </div>
             </article>
@@ -95,36 +120,12 @@
                         </div>
                     </dl>
                     <ul class="experience-entry__bullets">
-                        <li>Building Hubrix, a modular LED wall made of tiles that snap into any shape and turns live data into ambient, glanceable dashboards.</li>
+                        <li>Building Hubrix, a wall-mounted LED display for live data and pixel art, with an open widget SDK.</li>
                         <li>Own product direction, engineering, and early customer discovery as co-founder.</li>
                     </ul>
                 </div>
             </article>
-            
-            <article class="experience-entry">
-                <div class="experience-entry__panel">
-                    <div class="experience-entry__main">
-                        <p class="experience-entry__company"><a href="https://identipix.com/" target="_blank" rel="noreferrer">Identipix</a></p>
-                        <h3 class="experience-entry__role">Founder</h3>
-                    </div>
-                    <dl class="experience-entry__meta">
-                        <div>
-                            <dt>Timeline</dt>
-                            <dd>May 2025 - Present</dd>
-                        </div>
-                        <div>
-                            <dt>Base</dt>
-                            <dd>Waterloo, ON</dd>
-                        </div>
-                    </dl>
-                    <ul class="experience-entry__bullets">
-                        <li>Identipix is an AI photo delivery and lead-gen platform for photographers and studios.</li>
-                        <li>Built an AI photo delivery platform that matches guest selfies to event images to generate private galleries and studio leads.</li>
-                        <li>Led product, engineering, and early go-to-market as founder.</li>
-                    </ul>
-                </div>
-            </article>
-            
+
             <article class="experience-entry">
                 <div class="experience-entry__panel">
                     <div class="experience-entry__main">
@@ -138,13 +139,12 @@
                         </div>
                         <div>
                             <dt>Base</dt>
-                            <dd>Waterloo, ON</dd>
+                            <dd>Remote</dd>
                         </div>
                     </dl>
                     <ul class="experience-entry__bullets">
-                        <li>Engineered role-based agents for Brisk’s agentic AI suite, automating operational workflows across enterprise teams.</li>
-                        <li>Integrated agents with enterprise systems and internal tools, enabling context-aware actions beyond static chat responses.</li>
-                        <li>Built a field troubleshooting agent that diagnoses on-site issues, guides technicians, and captures expert workflows.</li>
+                        <li>Developed role-based AI agents connected to enterprise systems, automating operational workflows across teams.</li>
+                        <li>Built a field troubleshooting agent that diagnosed on-site issues, guided technicians, and captured expert workflows.</li>
                     </ul>
                 </div>
             </article>
@@ -152,7 +152,7 @@
             <article class="experience-entry">
                 <div class="experience-entry__panel">
                     <div class="experience-entry__main">
-                        <p class="experience-entry__company">OCAS</p>
+                        <p class="experience-entry__company">OCAS (Ontario Colleges)</p>
                         <h3 class="experience-entry__role">AI/ML Engineer Intern</h3>
                     </div>
                     <dl class="experience-entry__meta">
@@ -166,9 +166,8 @@
                         </div>
                     </dl>
                     <ul class="experience-entry__bullets">
-                        <li>Built and launched <a href="https://advisor.beta.ontariocolleges.ca/" target="_blank" rel="noreferrer">AI Advisor</a>, a RAG chatbot used by 1,000+ high schoolers to match interests to college programs.</li>
-                        <li>Built a resume parser extracting skills, education, and career signals to personalize Ontario college recommendations.</li>
-                        <li>Deployed AI Advisor on Azure with vector search, guardrails, and monitoring for reliable student-facing recommendations.</li>
+                        <li>Launched AI Advisor, a RAG chatbot on Azure with vector search and guardrails, used by 1,000+ students.</li>
+                        <li>Built an NLP resume parser that extracted skills, education, and career signals to personalize recommendations.</li>
                     </ul>
                 </div>
             </article>
@@ -190,8 +189,7 @@
                         </div>
                     </dl>
                     <ul class="experience-entry__bullets">
-                        <li>Optimized small language models for edge devices, reducing memory and compute under tight embedded constraints.</li>
-                        <li>Deployed speech-to-text models on embedded systems, reducing latency while preserving transcription quality.</li>
+                        <li>Optimized small language and speech-to-text models for embedded devices, cutting memory use and latency.</li>
                     </ul>
                 </div>
             </article>
@@ -201,20 +199,20 @@
     <section id="projects" class="section">
         <header class="section__header">
             <span class="section__index">[02]</span>
-            <h2 class="section__title">Projects</h2>
+            <h2 class="section__title">Projects &amp; Startups</h2>
         </header>
         <div class="projects-grid">
             <div class="project-card">
                 <div class="project-card__media">
                     <img src="images/projects/project-01.svg" alt="">
-                    <a href="https://www.identipix.com/blog/how-it-works" class="project-card__github" aria-label="Technical blog post" onclick="event.stopPropagation()" target="_blank" rel="noreferrer">
-                        <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M7 2.5H3a1 1 0 0 0-1 1v9a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1V9M9.5 1.5h5m0 0v5m0-5L7 9"/></svg>
+                    <a href="https://github.com/Anish-Reddy-K/identipix" class="project-card__github" aria-label="GitHub repository" onclick="event.stopPropagation()" target="_blank" rel="noreferrer">
+                        <svg viewBox="0 0 16 16" fill="currentColor"><path d="M8 0C3.58 0 0 3.58 0 8a8 8 0 0 0 5.47 7.59c.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8Z"/></svg>
                     </a>
                 </div>
                 <div class="project-card__body">
-                    <h3 class="project-card__title"><a href="https://www.identipix.com" target="_blank" rel="noreferrer">Identipix</a></h3>
-                    <p class="project-card__desc">AI photo delivery and lead-gen platform for photographers and studios.</p>
-                    <a href="https://www.identipix.com/blog/how-it-works" class="project-card__blog-link" target="_blank" rel="noreferrer" onclick="event.stopPropagation()">technical blog →</a>
+                    <h3 class="project-card__title"><a href="https://identipix.com" target="_blank" rel="noreferrer">Identipix</a></h3>
+                    <p class="project-card__desc">Free, open-source selfie photo finder for Google Drive. Guests take a selfie and see only the event photos they appear in.</p>
+                    <a href="https://youtu.be/h4Wpq68xWaE" class="project-card__blog-link" target="_blank" rel="noreferrer" onclick="event.stopPropagation()">watch demo →</a>
                 </div>
             </div>
             <div class="project-card">
@@ -223,7 +221,19 @@
                 </div>
                 <div class="project-card__body">
                     <h3 class="project-card__title">Aqua Pinion</h3>
-                    <p class="project-card__desc">Sensor-driven drowning detection chest strap using ML with 95%+ precision, triggering a life-saving inflatable on detection.</p>
+                    <p class="project-card__desc">Sensor-driven ML wearable that detects drowning with 95%+ precision and deploys a life-saving inflatable.</p>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-card__media">
+                    <img src="images/projects/project-04.svg" alt="">
+                    <a href="https://github.com/Anish-Reddy-K/SIMULACRA" class="project-card__github" aria-label="GitHub repository" onclick="event.stopPropagation()" target="_blank" rel="noreferrer">
+                        <svg viewBox="0 0 16 16" fill="currentColor"><path d="M8 0C3.58 0 0 3.58 0 8a8 8 0 0 0 5.47 7.59c.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8Z"/></svg>
+                    </a>
+                </div>
+                <div class="project-card__body">
+                    <h3 class="project-card__title"><a href="https://github.com/Anish-Reddy-K/SIMULACRA" target="_blank" rel="noreferrer">simulacra</a></h3>
+                    <p class="project-card__desc">Local LLM experiment platform. A crash-safe worker ran 10,000 trials with zero lost results, doubling throughput via concurrency tuning.</p>
                 </div>
             </div>
             <div class="project-card">
@@ -247,7 +257,7 @@
                 </div>
                 <div class="project-card__body">
                     <h3 class="project-card__title"><a href="https://github.com/Anish-Reddy-K/diagrammer" target="_blank" rel="noreferrer">diagrammer</a></h3>
-                    <p class="project-card__desc">Python renderer, CLI, skill, and MCP server for clean blueprint-style SVG diagrams from JSON specs.</p>
+                    <p class="project-card__desc">Diagram tool for AI agents (CLI, Claude Code skill, MCP server), merged into claude-code-templates (33K+ stars). 1,200+ PyPI downloads.</p>
                 </div>
             </div>
             <div class="project-card">
@@ -259,7 +269,7 @@
                 </div>
                 <div class="project-card__body">
                     <h3 class="project-card__title"><a href="https://github.com/Anish-Reddy-K/redact-prompt" target="_blank" rel="noreferrer">redact-prompt</a></h3>
-                    <p class="project-card__desc">PII redaction library that masks sensitive prompt data before LLM calls and restores it afterward.</p>
+                    <p class="project-card__desc">PII redaction library that masks sensitive prompt data before LLM calls and restores it afterward. 1,200+ PyPI downloads.</p>
                 </div>
             </div>
             <div class="project-card">
@@ -271,7 +281,7 @@
                 </div>
                 <div class="project-card__body">
                     <h3 class="project-card__title"><a href="https://github.com/Anish-Reddy-K/pyperfstats" target="_blank" rel="noreferrer">pyperfstats</a></h3>
-                    <p class="project-card__desc">Lightweight Python profiler with live terminal monitoring, CSV exports, visualizations, and HTML reports.</p>
+                    <p class="project-card__desc">Lightweight Python profiler with live terminal monitoring, CSV exports, visualizations, and HTML reports. 1,400+ PyPI downloads.</p>
                 </div>
             </div>
             <div class="project-card">
@@ -319,37 +329,36 @@
             <h2 class="section__title">Activities</h2>
         </header>
         <div class="activities-list">
-            <article class="activity-entry" tabindex="0" role="button" aria-haspopup="dialog" data-title="ConHacks" data-date="Founder & Lead Organizer" data-description="Founded and led ConHacks across 3 iterations, scaling to 200+ participants. Secured 600+ registrations, 200+ attendees, and 15+ sponsors for ConHacks 2026, executed end-to-end by a lean 3-member team." data-images="images/activities/conhacks/1.jpg,images/activities/conhacks/2.jpg,images/activities/conhacks/3.jpg,images/activities/conhacks/4.jpg,images/activities/conhacks/5.jpg,images/activities/conhacks/6.jpg,images/activities/conhacks/7.jpg,images/activities/conhacks/8.jpg,images/activities/conhacks/9.jpg,images/activities/conhacks/10.jpg,images/activities/conhacks/11.jpg,images/activities/conhacks/12.jpg,images/activities/conhacks/13.jpg">
+            <article class="activity-entry" tabindex="0" role="button" aria-haspopup="dialog" data-title="ConHacks" data-date="Founder &amp; Director · 2023 - 2026" data-description="Founded and ran 3 hackathons. ConHacks 2026 drew 750+ applicants, 250+ hackers, and 15+ sponsors, run end-to-end by a 3-person team." data-images="images/activities/conhacks/1.jpg,images/activities/conhacks/2.jpg,images/activities/conhacks/3.jpg,images/activities/conhacks/4.jpg,images/activities/conhacks/5.jpg,images/activities/conhacks/6.jpg,images/activities/conhacks/7.jpg,images/activities/conhacks/8.jpg,images/activities/conhacks/9.jpg,images/activities/conhacks/10.jpg,images/activities/conhacks/11.jpg,images/activities/conhacks/12.jpg,images/activities/conhacks/13.jpg">
                 <div class="activity-entry__photo">
                     <img class="activity-entry__image--contain" src="images/activities/conhacks/logo.png" alt="">
                 </div>
                 <div class="activity-entry__body">
                     <div class="activity-entry__meta">
-                        <span class="activity-entry__date">Founder & Lead Organizer</span>
+                        <span class="activity-entry__date">Founder &amp; Director · 2023 - 2026</span>
                     </div>
                     <h3 class="activity-entry__title"><a href="https://conhacks.io" target="_blank" rel="noreferrer">ConHacks</a></h3>
-                    <p class="activity-entry__desc">Founded and led 3 hackathon iterations, scaling to 200+ participants in 3 years.
-                    Secured 600+ registrations, 200+ attendees and 15+ sponsors for ConHacks 2026, executed end-to-end by a lean 3 member team.</p>
+                    <p class="activity-entry__desc">Founded and ran 3 hackathons. ConHacks 2026 drew 750+ applicants, 250+ hackers, and 15+ sponsors, run end-to-end by a 3-person team.</p>
                 </div>
             </article>
-            <article class="activity-entry" tabindex="0" role="button" aria-haspopup="dialog" data-title="Conestoga Computing Society" data-date="President & Founder" data-description="Founded a 300-member computing community and hosted 10+ events to build student engagement." data-images="images/activities/conhacks/10.jpg">
+            <article class="activity-entry" tabindex="0" role="button" aria-haspopup="dialog" data-title="Conestoga Computing Society" data-date="Co-Founder &amp; President · 2025 - 2026" data-description="Co-founded and grew a 320+ member student CS community, hosting technical events to build student engagement." data-images="images/activities/conhacks/10.jpg">
                 <div class="activity-entry__photo">
                     <img class="activity-entry__image--contain" src="images/activities/ccs/logo.png" alt="">
                 </div>
                 <div class="activity-entry__body">
                     <div class="activity-entry__meta">
-                        <span class="activity-entry__date">President & Founder</span>
+                        <span class="activity-entry__date">Co-Founder &amp; President · 2025 - 2026</span>
                     </div>
                     <h3 class="activity-entry__title"><a href="https://conestogacomputingsociety.com" target="_blank" rel="noreferrer">Conestoga Computing Society</a></h3>
-                    <p class="activity-entry__desc">Founded a 300-member computing community and hosted multiple events to build student engagement.</p>
+                    <p class="activity-entry__desc">Co-founded and grew a 320+ member student CS community, hosting technical events to build student engagement.</p>
                 </div>
             </article>
             <article class="activity-entry activity-entry--text">
                 <div class="activity-entry__body">
                     <div class="activity-entry__meta">
-                        <span class="activity-entry__date">Executive Lead (Former)</span>
+                        <span class="activity-entry__date">Executive Lead · 2024 - 2025</span>
                     </div>
-                    <h3 class="activity-entry__title">Google Developers Group - On Campus</h3>
+                    <h3 class="activity-entry__title">Google Developer Groups On Campus</h3>
                     <p class="activity-entry__desc">Organized 10+ workshops, speaker series, and hackathons for student developers.</p>
                 </div>
             </article>
